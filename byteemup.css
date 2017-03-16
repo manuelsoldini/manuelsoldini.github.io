@@ -2,3 +2,9 @@ body {
     background-image: url("buenos-aires.jpg");
     background-size: cover;
 }
+
+.logo {
+    display: block;
+    margin: 110px auto;
+    width: 50%;
+}
