@@ -9,23 +9,42 @@
 
 	background-image: url("buenos-aires.jpg");
 	background-size: cover;
+    background-position: center;
 	width: 110%;
 	height: 110%;
-	-webkit-filter: blur(5px);
-	filter: blur(5px);
+	-webkit-filter: blur(5px) saturate(50%) sepia(50%);
+	filter: blur(5px) saturate(150%) sepia(50%);
 }
 
 .content {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .logo {
     display: block;
     margin: 110px auto;
     width: 50%;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px black;
+    transition: text-shadow 0.5s;
+} 
+
+.contact:hover {
+    text-shadow: 0 0 10px white;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
 }
