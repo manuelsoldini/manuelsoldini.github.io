@@ -47,12 +47,6 @@
     }
 }
 
-@media screen and (min-height: 250px) and (max-height: 700px) {
-    .contact {
-        margin-top: -80px;
-    }
-}
-
 .contact:hover {
     text-shadow: 0 0 10px white;
 }
